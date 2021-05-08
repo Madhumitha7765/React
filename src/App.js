@@ -2,6 +2,7 @@
 import './App.css';
 import FComp from "./components/FunctionalComp"
 import {Class1} from "./components/ClassComp"
+import Click from "./components/click"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <FComp />
       {/* <Classcomp></Classcomp> */}
       <Class1></Class1>
+      <Click />
     </div>
    
   );
