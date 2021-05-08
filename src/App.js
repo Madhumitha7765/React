@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import FComp from "./components/FunctionalComp"
+import {Class1} from "./components/ClassComp"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>hey hello</h1>
+      <h1>this is test 2</h1>
+      <FComp />
+      {/* <Classcomp></Classcomp> */}
+      <Class1></Class1>
     </div>
+   
   );
 }
 
 export default App;
+
+// in case of named export,always use curly braces to imort single or multiple classes
+// no braces needed for default export
