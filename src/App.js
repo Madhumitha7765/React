@@ -4,6 +4,8 @@ import FComp from "./components/FunctionalComp"
 import {Class1} from "./components/ClassComp"
 import Click from "./components/click"
 import Counter from "./components/counter"
+import {ButtonOne} from "./components/hoctest" 
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Class1></Class1>
       <Click />
       <Counter />
+      <ButtonOne disable/>
     </div>
    
   );
