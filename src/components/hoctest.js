@@ -1,4 +1,4 @@
-export const styles ={
+const styles ={
     default : {
         color : '#eae8e8',
         backgroundColor : "#737373",
@@ -16,6 +16,9 @@ export const ButtonOne = (props) =>{
             styles_ = {...styles_, ...styles.disable};
         }
     return (
-        <button style={styles_}>I am Button </button>
+        <div>
+             <p></p>
+             <button style={styles_}>I am Button </button>
+        </div>
     );
 }
