@@ -24,7 +24,8 @@ class ParentComp extends Component {
 
         return (
             <div>
-                im the parent component
+                <br></br>
+                This is parent component
                 <RegularComp name={this.state.name} />
                 <PureComp name={this.state.name} />
 
